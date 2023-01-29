@@ -16,3 +16,7 @@
   /* border radiuses */
   --br-md: 5.27px;
 }
+header{
+  position: sticky;
+  z-index: 50;
+}
