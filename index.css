@@ -113,35 +113,32 @@ nav svg {
     transition: transform 0.3s ease-in-out;
   }
 }
-
-.hero {
-  position: absolute;
-  width: 1320px;
-  height: 600px;
-  left: 60px;
-  top: 160px;
-
-  border-radius: 6px;
+body{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 130px; */
+}
+main{
+  height: 100vh;
+  padding-block: 100px;
+}
+main .image{
+  display: flex;
   align-items: center;
-  padding: 0 60px;
+  gap: 100px;
 }
-
-.image {
-  display: flex;
-  overflow: hidden;
+.middle img{
+  position: relative;
+  z-index: 1;
 }
-
-.baloon {
+main p{
   position: absolute;
-  top: 75px;
-  left: -100px;
+  z-index: 2;
+ font-family: 'Oleo Script';
+ font-weight: 400;
+font-size: 4rem;
+text-align: center;
+color: #FFFFFF;
+bottom: 80px;
 }
 
-.middle {
-  position: absolute;
-  top: 75px;
-  left: 380px;
-}
