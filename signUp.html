@@ -26,8 +26,8 @@
             <div class="nav-links">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="btn">
@@ -49,18 +49,18 @@
                 <form action="register" method="post">
                     <h1>Create account</h1>
                     <!-- {% csrf_token %} -->
-                    <label for="name">Full Name : <br>
-                        <input type="text" name="name" id="name">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="Full Name:">
                     </label><br>
-                    <label for="roll">Roll Number : <br>
-                        <input type="text" name="roll" id="roll">
+                    <label for="roll">
+                        <input type="text" name="roll" id="roll"placeholder="Roll Number : ">
                     </label><br>
-                    <label for="password">Password : <br>
-                        <input type="text" name="password" id="password">
+                    <label for="password">
+                        <input type="text" name="password" id="password" placeholder="Password : ">
                     </label><br>
                     <!-- <p>{{msg}}</p> -->
                     <button type="submit">Create Account</button>
-                    <p>Already have an account<a href="login">Login</a></p>
+                    <p>Already have an account? <a href="login">Login</a></p>
                 </form>
             </div>
         <img class="image" src="./public/singup.svg" alt="hero" />

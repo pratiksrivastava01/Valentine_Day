@@ -33,12 +33,12 @@ ul li {
 a {
   text-decoration: none;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-nav{
+nav {
   position: relative;
   top: 25px;
 }
@@ -84,23 +84,22 @@ nav div ul li a {
   font-size: 24px;
   line-height: 33px; */
 }
-.btn-up{
+.btn-up {
   color: #fc136b;
-  
 }
 .btn-in {
   background: #fc136b;
   color: #f7f7f7;
 }
-nav svg{
+nav svg {
   display: none;
 }
 
-@media (max-width:1024px) {
-  nav>div>div{
+@media (max-width: 1024px) {
+  nav > div > div {
     justify-content: space-between;
   }
-  .nav-links{
+  .nav-links {
     flex-direction: column;
     position: absolute;
     border-radius: 6px;
@@ -123,38 +122,76 @@ main {
   height: 80vh;
 }
 
-.container{
+.container {
   z-index: 1;
   position: absolute;
   width: 492px;
   height: 492px;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.image{
+.image {
   margin-top: 60px;
   z-index: 2;
   position: relative;
   max-width: 600px;
-  height: auto;  
+  height: auto;
 }
 
-@media (max-width:1024px){
-  .image{
+.container form {
+  margin-bottom: 50px;
+}
+
+.container form input {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0 0.25rem 0;
+  border-bottom: 0.811454px solid rgba(44, 44, 44, 0.5);
+}
+.container form input::placeholder{
+  font-family: "Nunito";
+  color: #2E3C3D;
+}
+.container form button{
+  font-family: "Nunito";
+  background: linear-gradient(116.6deg, #FF889B 0%, #FC136B 98%);
+  color: #FFFFFF;
+border-radius: 4.05727px;
+padding: 10px;
+margin-block: 20px;
+width: 100%;
+}
+
+.container form p{
+color: #2E3C3D;
+}
+
+.container form p a{
+  color: #FF00D6;
+}
+
+@media (max-width: 1024px) {
+  .image {
     max-width: 550px;
   }
-  .container{
+  .container {
     width: 451px;
     height: 451px;
   }
 }
-@media (max-width:576px){
-  .image{
+@media (max-width: 576px) {
+  .image {
     max-width: 500px;
   }
-  .container{
+  .container {
     width: 410px;
     height: 410px;
+  }
+  .container form {
+    margin-bottom: 70px;
   }
 }
