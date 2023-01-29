@@ -1,0 +1,184 @@
+body {
+  background: linear-gradient(116.6deg, #ff889b 0%, #fc136b 98%);
+  display: flex;
+}
+
+.navbar {
+  position: absolute;
+  width: 1320px;
+  height: 92px;
+  left: 60px;
+  top: 31px;
+
+  background: var(--color-white);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.navbar > .logo {
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-links > ul > li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links > ul > li > a {
+  font-family: var(--font-nunito);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-crimson);
+
+  /* position: absolute;
+width: 120px;
+height: 33px;
+left: 713px;
+top: 60px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px; */
+}
+
+/* .nav-links > ul > li > a:hover {
+  color: var(--color-white);
+} */
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7.02762px 33px;
+  gap: 14.06px;
+  width: 153px;
+  height: 47.06px;
+  left: 1005px;
+  top: 53px;
+  border-radius: 5.27072px;
+  /* overflow: hidden; */
+}
+
+.btn1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7.02762px 33px;
+  gap: 14.06px;
+  width: 163px;
+  height: 47.06px;
+  left: 1005px;
+  top: 53px;
+  background: var(--color-white);
+  border: 2px solid #fc136b;
+  border-radius: 5.27072px;
+}
+
+.btn1 > a {
+  /* Sign Up */
+
+  width: 203px;
+  height: 33px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #fc136b;
+
+  /* Inside auto layout */
+
+  display: flex;
+  -family: var(--font-nunito);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-crimson);
+}
+
+/* .btn1:hover {
+  background: var(--color-crimson);
+}
+
+.btn1:hover > a {
+  color: var(--color-white);
+} */
+
+.btn2 {
+  width: 123px;
+  background: var(--color-crimson);
+  cursor: pointer;
+}
+
+.btn2 > a {
+  width: 103px;
+  height: 33px;
+  color: var(--color-white);
+}
+
+/* .btn2:hover {
+  background: var(--color-white);
+}
+
+.btn2:hover > a {
+  color: var(--color-crimson);
+} */
+
+.hero {
+  position: absolute;
+  width: 1320px;
+  height: 600px;
+  left: 60px;
+  top: 160px;
+
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.image {
+  display: flex;
+  overflow: hidden;
+}
+
+.baloon {
+  position: absolute;
+  top: 75px;
+  left: -100px;
+}
+
+.middle {
+  position: absolute;
+  top: 75px;
+  left: 380px;
+}

@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.pngwing-3-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 988.04px;
+  height: 605.17px;
+  object-fit: cover;
+}
+.pratik-child {
+  position: absolute;
+  top: 31px;
+  left: 60px;
+  border-radius: 6px;
+  background-color: #f6f6f6;
+  width: 1320px;
+  height: 92px;
+}
+.pngfind-1-icon,
+.pngwing-1-icon,
+.pngwing-2-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.pngwing-1-icon {
+  top: 507px;
+  left: 0;
+  width: 559.09px;
+  height: 589px;
+}
+.pngwing-2-icon {
+  top: 168px;
+  left: 1110px;
+  width: 812.17px;
+  height: 1121.22px;
+}
+.pngfind-1-icon {
+  top: 0;
+  left: 0;
+  width: 737.61px;
+  height: 499px;
+}
+.group-child {
+  position: absolute;
+  top: 344px;
+  left: 257px;
+  background: linear-gradient(-68.88deg, #fe407d, #fe5184);
+  width: 224px;
+  height: 165px;
+}
+.pngfind-1-parent {
+  position: absolute;
+  top: 257px;
+  left: 351px;
+  width: 737.61px;
+  height: 509px;
+}
+.send-proposal-to {
+  position: absolute;
+  top: 659px;
+  left: 322px;
+}
+.login {
+  position: relative;
+  font-weight: 600;
+}
+.login-wrapper,
+.sign-up-wrapper {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-md);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper {
+  left: 173px;
+  background-color: var(--color-crimson);
+  padding: var(--padding-md) 43.92265319824219px;
+}
+.sign-up-wrapper {
+  left: 0;
+  border: 2px solid var(--color-crimson);
+  padding: var(--padding-md) 33px;
+  color: var(--color-crimson);
+}
+.frame-parent {
+  position: absolute;
+  top: 9px;
+  left: 891px;
+  width: 321.85px;
+  height: 47.06px;
+  color: var(--color-white);
+}
+.about {
+  left: 106px;
+}
+.about,
+.contact-us,
+.home {
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+}
+.home {
+  left: 0;
+}
+.contact-us {
+  left: 214px;
+}
+.about-parent {
+  position: absolute;
+  top: 16px;
+  left: 385px;
+  width: 334px;
+  height: 33px;
+}
+.proposal {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.bichat-left-heart-fill-icon {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.proposal-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 209px;
+  height: 66px;
+  font-size: 48px;
+  font-family: var(--font-oleo-script);
+}
+.group-parent {
+  position: absolute;
+  top: 44px;
+  left: 114px;
+  width: 1212.85px;
+  height: 66px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-crimson);
+  font-family: var(--font-nunito);
+}
+.pratik {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(116.6deg, #ff889b, #fc136b 99.99%);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  color: inherit;
+}
+.mask-group {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  text-align: center;
+  font-size: 70px;
+  color: var(--color-white);
+  font-family: var(--font-oleo-script);
+}
