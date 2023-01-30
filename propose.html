@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="propose.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Branch</a>
+                <div class="dropdown-content">
+                    <a href="#">CSE</a>
+                    <a href="#">IT</a>
+                    <a href="#">Electrical</a>
+                    <a href="#">Mechanical</a>
+                    <a href="#">Chemical</a>
+                    <a href="#">Civil</a>
+                    <a href="#">Production</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Batch</a>
+                <div class="dropdown-content">
+                    <a href="#">2k19</a>
+                    <a href="#">2k20</a>
+                    <a href="#">2k21</a>
+                    <a href="#">2k22</a>
+                </div>
+            </li>
+            <button>Filter</button>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <ul>
+            <li>
+                <span>Roll Number: 12345</span>
+                <span>Name: John Doe</span>
+                <button class="propose-btn" data-roll="12345">Propose</button>
+            </li>
+            <li>
+                <span>Roll Number: 67890</span>
+                <span>Name: Jane Doe</span>
+                <button class="propose-btn" data-roll="67890">Propose</button>
+            </li>
+        </ul>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <form>
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="5"></textarea>
+                    <input type="hidden" id="roll" value="">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+<script>
+    const proposeBtns = document.querySelectorAll(".propose-btn");
+    const popup = document.getElementById("popup");
+    const closeBtn = document.querySelector(".close-btn");
+    const messageInput = document.getElementById("message");
+    const rollInput = document.getElementById("roll");
+
+    proposeBtns.forEach(btn => {
+        btn.addEventListener("click", function () {
+            popup.style.display = "block";
+            rollInput.value = this.dataset.roll;
+        });
+    });
+
+    closeBtn.addEventListener("click", function () {
+        popup.style.display = "none";
+    });
+
+    popup.addEventListener("click", function (event) {
+        if (event.target === popup) {
+            popup.style.display = "none";
+        }
+    });
+
+</script>
+
+</html>
