@@ -113,32 +113,31 @@ nav svg {
     transition: transform 0.3s ease-in-out;
   }
 }
-body{
+body {
   display: flex;
   flex-direction: column;
   /* gap: 130px; */
 }
-main{
+main {
   height: 100vh;
   padding-block: 100px;
 }
-main .image{
+main .image {
   display: flex;
   align-items: center;
   gap: 100px;
 }
-.middle img{
+.middle img {
   position: relative;
   z-index: 1;
 }
-main p{
+main p {
   position: absolute;
   z-index: 2;
- font-family: 'Oleo Script';
- font-weight: 400;
-font-size: 4rem;
-text-align: center;
-color: #FFFFFF;
-bottom: 80px;
+  font-family: "Oleo Script";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  color: #ffffff;
+  bottom: 80px;
 }
-
