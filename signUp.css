@@ -125,6 +125,7 @@ main {
 .container {
   z-index: 1;
   position: absolute;
+  float: right;
   width: 492px;
   height: 492px;
   background: #ffffff;
@@ -135,7 +136,7 @@ main {
 }
 
 .image {
-  margin-top: 60px;
+  margin-top: 6px;
   z-index: 2;
   position: relative;
   max-width: 600px;
@@ -144,6 +145,8 @@ main {
 
 .container form {
   margin-bottom: 50px;
+  position: absolute;
+  z-index: 999;
 }
 
 .container form input {
@@ -152,26 +155,26 @@ main {
   padding: 0.5rem 0 0.25rem 0;
   border-bottom: 0.811454px solid rgba(44, 44, 44, 0.5);
 }
-.container form input::placeholder{
+.container form input::placeholder {
   font-family: "Nunito";
-  color: #2E3C3D;
+  color: #2e3c3d;
 }
-.container form button{
+.container form button {
   font-family: "Nunito";
-  background: linear-gradient(116.6deg, #FF889B 0%, #FC136B 98%);
-  color: #FFFFFF;
-border-radius: 4.05727px;
-padding: 10px;
-margin-block: 20px;
-width: 100%;
+  background: linear-gradient(116.6deg, #ff889b 0%, #fc136b 98%);
+  color: #ffffff;
+  border-radius: 4.05727px;
+  padding: 10px;
+  margin-block: 20px;
+  width: 100%;
 }
 
-.container form p{
-color: #2E3C3D;
+.container form p {
+  color: #2e3c3d;
 }
 
-.container form p a{
-  color: #FF00D6;
+.container form p a {
+  color: #ff00d6;
 }
 
 @media (max-width: 1024px) {
